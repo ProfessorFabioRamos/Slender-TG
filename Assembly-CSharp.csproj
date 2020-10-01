@@ -38,6 +38,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerActions.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
+     <Compile Include="Assets\Fantasy Monster(wizard) Demo\Environment\Scripts\CamCTRLDemo.cs" />
+     <Compile Include="Assets\Fantasy Monster(wizard) Demo\Environment\Scripts\MoveCTRLDemo.cs" />
+     <Compile Include="Assets\Scripts\SlenderBehaviour.cs" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+     <None Include="Assets\Fantasy Monster(wizard) Demo\READ ME(wizard)\character setup guide link.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
