@@ -36,11 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\SlenderBehaviour.cs" />
      <Compile Include="Assets\Scripts\PlayerActions.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Fantasy Monster(wizard) Demo\Environment\Scripts\CamCTRLDemo.cs" />
      <Compile Include="Assets\Fantasy Monster(wizard) Demo\Environment\Scripts\MoveCTRLDemo.cs" />
-     <Compile Include="Assets\Scripts\SlenderBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Shotgun.cs" />
      <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
      <None Include="Assets\Fantasy Monster(wizard) Demo\READ ME(wizard)\character setup guide link.txt" />
     <Reference Include="UnityEngine">

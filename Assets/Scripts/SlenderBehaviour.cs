@@ -12,7 +12,8 @@ public class SlenderBehaviour : MonoBehaviour
     public float scareDistance = 5;
     private float distance;
     public Image noiseEffectImage;
-
+    public GameObject explosion;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -41,4 +42,8 @@ public class SlenderBehaviour : MonoBehaviour
             agent.speed = 2;
         //agent.speed = rend.isVisible?agent.speed = 0:agent.speed = 2;
     }
+
+   void OnDestroy(){
+       Instantiate(explosion, transform.position, Quaternion.identity);
+   } 
 }

@@ -6,11 +6,13 @@ public class PlayerActions : MonoBehaviour
 {
     public int objsQt = 0;
     public GameObject feedbackPanel;
+    public GameObject shotgunPlayer;
 
     // Start is called before the first frame update
     void Start()
     {
         feedbackPanel.SetActive(false);
+        shotgunPlayer.SetActive(false);
     }
 
     // Update is called once per frame
@@ -43,6 +45,7 @@ public class PlayerActions : MonoBehaviour
             if(Input.GetKey(KeyCode.E)){
                 Destroy(other.gameObject);
                 feedbackPanel.SetActive(false);
+                shotgunPlayer.SetActive(true);
             }
         }
     }
